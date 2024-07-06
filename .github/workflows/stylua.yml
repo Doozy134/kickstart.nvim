@@ -2,6 +2,7 @@
 name: Check Lua Formatting
 
 on:
+  workflow_dispatch:
   push:
     branches: ["main"]
 
