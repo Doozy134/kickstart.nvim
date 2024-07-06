@@ -161,7 +161,7 @@ vim.opt.rtp:prepend(lazypath)
 --    :Lazy update
 --
 -- Allow standard CTRL / to toggle comment/uncomment
-vim.keymap.set('n', '<C-_>', function()
+vim.keymap.set('n', '<C-/>', function()
   require('Comment.api').toggle.linewise.current()
 end, { noremap = true, silent = true })
 
